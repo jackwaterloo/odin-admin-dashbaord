@@ -1,9 +1,15 @@
+/* element resets */
 img {
     height: 45px;
 }
 
 body {
     margin-top: 0px;
+}
+
+.bot-flex > .profile p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* general page layout */
@@ -72,17 +78,26 @@ body {
 
 .top-flex > .profile {
     gap: 30px;
+    font-size: 1.5rem;
 }
 
 #notif-icon {
     height: 30px;
 }
 
+.bot-flex > .profile p:last-child {
+    font-size: 2rem;
+}
+
+.bot-flex > .profile > div {
+    padding-left: 10px;
+}
+
 .create-btns {
     display: flex;
     justify-content: space-around;
     height: 100%;
-    width: max(300px, 45vw);
+    width: max(300px, 40vw);
 }
 
 .create-btns > div {
