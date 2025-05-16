@@ -171,3 +171,17 @@ body {
 .project-sect .icons img {
     height: 25px;
 }
+
+/* announcement section */
+.announce-sect > .container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--gap);
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+}
+
+.announce-sect > .container > hr {
+    margin-top: var(--gap);
+    margin-bottom: var(--gap);
+}
