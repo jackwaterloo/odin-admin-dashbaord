@@ -1,6 +1,8 @@
 # The Odin Project: Admin Dashboard
 This project is from [The Odin Project's Course](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
+View my deployed Admin Dashboard at [https://jackwaterloo.github.io/odin-admin-dashbaord/](https://jackwaterloo.github.io/odin-admin-dashbaord/)
+
 ## Topics Covered
 - Grid
     - Positioning Grid Elements
