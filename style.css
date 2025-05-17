@@ -187,3 +187,24 @@ body {
 }
 
 /* trending section */
+
+.trending-sect > .container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--gap);
+    gap: var(--gap);
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+}
+
+.trending-sect .subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending-sect .subject > img {
+    width: 45px;
+}
