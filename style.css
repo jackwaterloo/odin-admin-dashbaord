@@ -159,7 +159,7 @@ body {
 }
 
 .project-sect .icons {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -185,3 +185,5 @@ body {
     margin-top: var(--gap);
     margin-bottom: var(--gap);
 }
+
+/* trending section */
